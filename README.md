@@ -1,18 +1,5 @@
 Number Guessing Game 🎯
 A Python-based interactive number guessing game with statistical analysis and data tracking features.
-📋 Table of Contents
-
-Overview
-Features
-Requirements
-Installation
-How to Play
-Game Features
-Code Structure
-Error Handling
-Statistics Tracking
-Contributing
-License
 
 🎮 Overview
 This is an enhanced number guessing game where players attempt to guess a randomly generated number between 1 and 10. The game provides intelligent feedback and tracks detailed statistics using Python's statistics module to analyze player performance over multiple games.
@@ -100,23 +87,6 @@ Tracks your best performance (fewest attempts)
 Displays current high score at the start of each new game
 Motivates improvement across multiple sessions
 
-🏗️ Code Structure
-guessing_game.py
-├── Imports (random, statistics)
-├── start_game() function
-├── Game configuration
-├── Welcome message
-├── Main game loop
-│ ├── High score display
-│ ├── Number generation
-│ ├── Guessing loop
-│ │ ├── Input validation
-│ │ ├── Range checking
-│ │ ├── Feedback system
-│ │ └── Win condition
-│ ├── Statistics display
-│ └── Play again prompt
-└── Goodbye message
 ⚠️ Error Handling
 The game handles various error conditions:
 
